@@ -29,6 +29,8 @@ var compare = function(choice1,choice2){
         }else{
             return "rock wins";
         }
+    }else{
+        return "Please enter a valid answer for the Player.";
     }
 };
 
